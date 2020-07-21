@@ -1,3 +1,4 @@
+% Assign true or false based on valid date entry
 function valid = valid_date_year_month(year,month,day)
 if isscalar(year) && isscalar(month) && isscalar(day)
 
